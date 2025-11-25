@@ -20,6 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <activity
+            android:name=".AddNoteActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DeleteNoteActivity"
+            android:exported="false" />
+
+    </application>
 </manifest>
